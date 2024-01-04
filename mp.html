@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map with Leaflet</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="map.css">
+
+</head>
+<body>
+    <header>
+        <h1>Interactive Map with Leaflet</h1>
+    </header>
+    <div id="map"></div>
+
+    <br><br><br>
+    <div id="form-container">
+    <form id="coordinatesForm">
+        <label for="latitude">Latitude:</label>
+        <input type="text" id="latitude" name="latitude" placeholder="Enter latitude" required>
+        
+        <label for="longitude">Longitude:</label>
+        <input type="text" id="longitude" name="longitude" placeholder="Enter longitude" required>
+
+        <label for="message">Marker Name:</label>
+        <input type="text" id="message" name="message" placeholder="Enter marker name" required>
+
+        <button type="button" onclick="addMarker()">Add Marker</button>
+    </form>
+
+    </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="mapscr.js"></script>
+
+
+</body>
+</html>

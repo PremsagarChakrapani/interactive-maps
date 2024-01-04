@@ -1,0 +1,54 @@
+.header{
+    background-color: #2c3e50; /* Background color */
+            color: #ecf0f1; /* Text color */
+            padding: 20px;
+            text-align: center;
+            font-size: 24px; /* Font size */
+            border-bottom: 2px solid #3498db; /* Border */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+#map{
+    height: 700px;
+    border: 2px solid #3498db; /* Border color for the map */
+            border-radius: 8px; /* Optional: Adds rounded corners */
+}
+.body{
+    margin:20px;
+}
+
+#coordinatesForm {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#coordinatesForm label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#coordinatesForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#coordinatesForm button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#coordinatesForm button:hover {
+    background-color: #2980b9;
+}
